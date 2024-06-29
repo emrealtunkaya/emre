@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="assets/css/style2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  LOGO
+                  <!-- <img src="assets/img/puuma.jpg " style="width: 8rem;" height="auto" alt=""> -->
+                  <!-- <i class="ri-planet-line"></i> PUMA -->
+               </a>
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                       Erkek <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Profiles
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Accounts
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Messages
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Kadın <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Overview
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Transactions
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="dropdown__item">
+                    <div class="nav__link">
+                       Çocuk <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Profiles
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Accounts
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Messages
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Çocuk <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Profiles
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Accounts
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li class="dropdown__item">
+                    <div class="nav__link">
+                       Spor<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Profiles
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Accounts
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Messages
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <div class="container text-center">
+         <div class="row">
+           <div class="col-sm-4">
+            <div class="accordion">
+            <div class="accordion-content">
+                <header>
+                    <hr>
+                    <span class="title">ÖNE ÇIKANLAR</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                   <br> En Çok Satanlar <br>Classics <br> Dare to <br> Downtown <br> Palermo
+                </p>
+            </div>
+            <hr>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">AYAKKABI</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                <br> Günlük  Giyim <br> Koşu & Yürüyüş <br> Classics <br> Suede <br> Mayze <br> RS Collection <br> Slipstream <br> Bot& Kışlık Ayakkabı <br> Terlik & Sandalet <br> Trend Stiller
+                </p>
+            </div>
+            <hr>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">GİYİM</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    <br>Classics <br> Üst & T-shirt <br> Spor Sütyeni <br> Swatshirt <br> Tayt <br> Eşofman Altı <br> Ceket <br> Mont <br> Şort & Bikini  <br>Modest Spor Giyim
+                </p>
+            </div>
+            <hr>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">AKSESUAR</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                  <br>  Çanta & Cüzdan <br> Sırt Çantası <br> İç Giyim & Çorap <br> Şapka & Bere <br> Spor Ekipmanı
+                </p>
+            </div>
+            <hr>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">SPOR</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                   <br> Antrenman <br> Koşu & Yürüyüş <br> Yoga<br> Basketbol <br> Futbol <br> Motor Sporları
+                </p>
+            </div>
+            <br><br>
+            <h2>FİLTRELER</h2>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">RENK</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    <br> sarı <br> yeşil <br> kırmızı <br> mor <br> siyah <br> bordo <br> beyaz
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">FİYAT ARALIĞI</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    <br> 247-7000
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">ÜRÜN GRUBU</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    <br> Ayakkabı <br> Giyim <br> Aksesuar
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">BEDEN</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    <br> 36 37 38 39 40 42 43 <br> S M L
+                </p>
+            </div>
+            
+        </div>
+      </div>
+      <div class="col-sm-8">
+         <h2 class="title">KADIN ANTRENMAN ÜRÜNLERİ</h2>
+         <hr class="line">
+         <div class="button-container">
+            <button class="button">FİLTRELER</button>
+            <button class="button">SIRALAMA</button>
+          </div>
+          <hr class="bold-line">
+          <h3 class="title2">ÖNE ÇIKAN ÜRÜNLER</h3>
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün3.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün4.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün5.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün6.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width: 10rem;">
+                     <img src="assets/img/ürün7.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               <div class="swiper-slide">
+                  <div class="card" style="width:10rem;">
+                     <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     </div>
+                   </div>
+               </div> 
+               </div>
+               <div class="swiper-pagination"></div>
+             </div>
+              <section id="swiper-card-a">
+               <div class="filter">
+                  <div class="button-container2">
+                     <button id="filter-title">SIRALAMA:</button>
+                    <button class="filter-button"> Varsayılan Sıralama</button>
+                    <button class="filter-button">Ürün Adı: A-Z</button>
+                    <button class="filter-button">Ürün Adı: Z-A</button>
+                    <button class="filter-button">Fiyat: Artan</button>
+                    <button class="filter-button">Fiyat: Azalan</button>
+                    <button class="filter-button">İndirim Oranı</button>
+                  </div>
+                </div>
+               <hr class="line2">
+               <div class="card" style="width:15rem;">
+                  <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text"> quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card" style="width:15rem;">
+                  <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                <div class="card" style="width:15rem;">
+                  <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+
+              </section>
+         </div>
+         <section id="card-b">
+            <div class="card" style="width: 18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+             <div class="card" style="width:18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+             <div class="card" style="width:18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+             <div class="card" style="width:18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+             <div class="card" style="width:18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+             <div class="card" style="width:18rem;">
+               <img src="assets/img/ürün2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>
+
+         </section>
+       </div>
+      <script src="assets/js/app2.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   </body>
+</html>
